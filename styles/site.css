@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Quintessential&display=swap');
+
+:root {
+   --color-primary: #FFD333;
+   --color-accent: #70D6FF;
+   --color-warning: #FF70A6;
+   --color-success: #00fcc5;
+   --color-text: #0A0F0D;
+   --color-gray: #DBDBDB;
+   --color-white: #FFFFFF;
+   --font-primary: 'Halant', serif;
+   --font-emphasis: 'Quintessential', cursive;
+}
+
+body {
+   font-family: var(--font-primary);
+   font-size: 1.2rem;
+   color: var(--color-text);
+   background-color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: var(--font-emphasis);
+   font-weight: 400;
+}
+
+a {
+   color: var(--color-accent);
+   text-decoration: none;
+}
+
+a:hover {
+   color: var(--color-primary);
+}
+
+a:active {
+   color: var(--color-primary);
+}
+
+a:visited {
+   color: var(--color-primary);
+}
+
+a:focus {
+   color: var(--color-primary);
+}
+
+/* Header */
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   background-color: var(--color-primary);
+}
+
+header a {
+   color: var(--color-text);
+}
+
+header a:hover {
+   color: var(--color-text);
+}
+
+header a:active {
+   color: var(--color-text);
+}
+
+header a:visited {
+   color: var(--color-text);
+}
+
+header a:focus {
+   color: var(--color-text);
+}
+
+/* Main */
+main {
+   padding: 2rem;
+}
+
+/* Footer */
+footer {
+   padding: 1rem 2rem;
+   background-color: var(--color-primary);
+}
+
+footer a {
+   color: var(--color-text);
+}
+
+footer a:hover {
+   color: var(--color-text);
+}
+
+footer a:active {
+   color: var(--color-text);
+}
+
+footer a:visited {
+   color: var(--color-text);
+}
+
+footer a:focus {
+   color: var(--color-text);
+}
+
+/* Buttons */
+.btn {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   border-radius: 0.25rem;
+   font-size: 1rem;
+   font-weight: 500;
+   text-decoration: none;
+   text-align: center;
+   cursor: pointer;
+   transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-primary:hover {
+   background-color: var(--color-accent);
+   color: var(--color-text);
+}
+
+.btn-primary:active {
+   background-color: var(--color-accent);
+   color: var(--color-text);
+}
+
+.btn-primary:visited {
+   background-color: var(--color-accent);
+   color: var(--color-text);
+}
+
+.btn-primary:focus {
+   background-color: var(--color-accent);
+   color: var(--color-text);
+}
+
+.btn-accent {
+   background-color: var(--color-accent);
+   color: var(--color-text);
+}
+
+.btn-accent:hover {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-accent:active {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-accent:visited {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-accent:focus {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-warning {
+   background-color: var(--color-warning);
+   color: var(--color-text);
+}
+
+.btn-warning:hover {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-warning:active {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-warning:visited {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-warning:focus {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-success {
+   background-color: var(--color-success);
+   color: var(--color-text);
+}
+
+.btn-success:hover {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-success:active {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-success:visited {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+.btn-success:focus {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+   display: block;
+   width: 100%;
+   padding: 0.5rem 1rem;
+   border: 1px solid var(--color-gray);
+   border-radius: 0.25rem;
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--color-text);
+   background-color: var(--color-white);
+   transition: all 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+   border-color: var(--color-primary);
+   outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+   border-color: var(--color-primary);
+}
+
+input[type="text"]:active,
+input[type="email"]:active,
+input[type="password"]:active,
+textarea:active {
+   border-color: var(--color-primary);
+}
+
+input[type="text"]:visited,
+input[type="email"]:visited,
+input[type="password"]:visited,
+textarea:visited {
+   border-color: var(--color-primary);
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+textarea:disabled {
+   border-color: var(--color-gray);
+   background-color: var(--color-gray-light);
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid,
+textarea:invalid {
+   border-color: var(--color-warning);
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid,
+textarea:valid {
+   border-color: var(--color-success);
+}
+
+input[type="submit"] {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   border-radius: 0.25rem;
+   font-size: 1rem;
+   font-weight: 500;
+   text-decoration: none;
+   text-align: center;
+   cursor: pointer;
+   transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+input[type="submit"]:active {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+input[type="submit"]:visited {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+input[type="submit"]:focus {
+   background-color: var(--color-primary);
+   color: var(--color-text);
+}
+
+input[type="submit"]:disabled {
+   background-color: var(--color-gray);
+   color: var(--color-text);
+}
+
+/* Tables */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+table th {
+   padding: 0.5rem 1rem;
+   text-align: left;
+   border-bottom: 1px solid var(--color-gray);
+}
+
+table td {
+   padding: 0.5rem 1rem;
+   border-bottom: 1px solid var(--color-gray);
+}
+
+table tr:nth-child(even) {
+   background-color: var(--color-gray-light);
+}
+
+/* Lists */
+ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+ul li {
+   padding: 0.5rem 1rem;
+   border-bottom: 1px solid var(--color-gray);
+}
+
+ul li:last-child {
+   border-bottom: none;
+}
+
+ul li:hover {
+   background-color: var(--color-gray-light);
+}
+
+/* Utilities */
+.center {
+   text-align: center;
+}
+
+.right {
+   text-align: right;
+}
+
+.left {
+   text-align: left;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.capitalize {
+   text-transform: capitalize;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+.italic {
+   font-style: italic;
+}
+
+/* Media Queries */
+/* Responsive Small Size */
+@media (min-width: 576px) {
+   .container {
+      max-width: 540px;
+   }
+
+   .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+   }
+
+   .col-sm-1,
+   .col-sm-2,
+   .col-sm-3,
+   .col-sm-4,
+   .col-sm-5,
+   .col-sm-6,
+   .col-sm-7,
+   .col-sm-8,
+   .col-sm-9,
+   .col-sm-10,
+   .col-sm-11,
+   .col-sm-12 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+
+   .col-sm {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+   }
+
+   .col-sm-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: none;
+   }
+
+   .col-sm-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+   }
+
+   .col-sm-2 {
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+   }
+
+   .col-sm-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+   }
+
+   .col-sm-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+   }
+
+   .col-sm-5 {
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+   }
+
+   .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
+
+   .col-sm-7 {
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+   }
+
+   .col-sm-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+   }
+
+   .col-sm-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+   }
+
+   .col-sm-10 {
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+   }
+
+   .col-sm-11 {
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
+   }
+
+   .col-sm-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+}
+
+/* Responsive Medium Size */
+@media (min-width: 768px) {
+   .container {
+      max-width: 720px;
+   }
+
+   .col-md-1,
+   .col-md-2,
+   .col-md-3,
+   .col-md-4,
+   .col-md-5,
+   .col-md-6,
+   .col-md-7,
+   .col-md-8,
+   .col-md-9,
+   .col-md-10,
+   .col-md-11,
+   .col-md-12 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+
+   .col-md {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+   }
+
+   .col-md-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: none;
+   }
+
+   .col-md-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+   }
+
+   .col-md-2 {
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+   }
+
+   .col-md-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+   }
+
+   .col-md-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+   }
+
+   .col-md-5 {
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+   }
+
+   .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
+
+   .col-md-7 {
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+   }
+
+   .col-md-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+   }
+
+   .col-md-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+   }
+
+   .col-md-10 {
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+   }
+
+   .col-md-11 {
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
+   }
+
+   .col-md-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+}
+
+/* Responsive Large Size */
+@media (min-width: 992px) {
+   .container {
+      max-width: 960px;
+   }
+
+   .col-lg-1,
+   .col-lg-2,
+   .col-lg-3,
+   .col-lg-4,
+   .col-lg-5,
+   .col-lg-6,
+   .col-lg-7,
+   .col-lg-8,
+   .col-lg-9,
+   .col-lg-10,
+   .col-lg-11,
+   .col-lg-12 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+
+   .col-lg {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+   }
+
+   .col-lg-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: none;
+   }
+
+   .col-lg-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+   }
+
+   .col-lg-2 {
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+   }
+
+   .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+   }
+
+   .col-lg-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+   }
+
+   .col-lg-5 {
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+   }
+
+   .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
+
+   .col-lg-7 {
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+   }
+
+   .col-lg-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+   }
+
+   .col-lg-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+   }
+
+   .col-lg-10 {
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+   }
+
+   .col-lg-11 {
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
+   }
+
+   .col-lg-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+}
+
+/* Responsive Extra Large Size */
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1140px;
+   }
+
+   .col-xl-1,
+   .col-xl-2,
+   .col-xl-3,
+   .col-xl-4,
+   .col-xl-5,
+   .col-xl-6,
+   .col-xl-7,
+   .col-xl-8,
+   .col-xl-9,
+   .col-xl-10,
+   .col-xl-11,
+   .col-xl-12 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+
+   .col-xl {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+   }
+
+   .col-xl-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: none;
+   }
+
+   .col-xl-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+   }
+
+   .col-xl-2 {
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+   }
+
+   .col-xl-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+   }
+
+   .col-xl-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+   }
+
+   .col-xl-5 {
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+   }
+
+   .col-xl-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
+
+   .col-xl-7 {
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+   }
+
+   .col-xl-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+   }
+
+   .col-xl-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+   }
+
+   .col-xl-10 {
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+   }
+
+   .col-xl-11 {
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
+   }
+
+   .col-xl-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+}
+
