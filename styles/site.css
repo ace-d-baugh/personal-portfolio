@@ -218,6 +218,60 @@ footer a:focus {
    color: var(--color-text);
 }
 
+/* Cards */
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   border-radius: 0.25rem;
+   background-color: var(--color-white);
+}
+
+.card:hover {
+   box-shadow: 0 0 0 0.25rem var(--color-primary);
+}
+
+.card img {
+   width: 100%;
+   max-width: 300px;
+   height: auto;
+   border-radius: 0.25rem;
+}
+
+.card h3 {
+   margin: 1rem 0;
+}
+
+.card p {
+   margin: 1rem 0;
+}
+
+.card a {
+   margin: 1rem 0;
+}
+
+.card-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.card-footer p {
+   margin: 0;
+}
+
+.cad-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+
+
 /* Forms */
 input[type="text"],
 input[type="email"],
@@ -257,19 +311,12 @@ textarea:active {
    border-color: var(--color-primary);
 }
 
-input[type="text"]:visited,
-input[type="email"]:visited,
-input[type="password"]:visited,
-textarea:visited {
-   border-color: var(--color-primary);
-}
-
 input[type="text"]:disabled,
 input[type="email"]:disabled,
 input[type="password"]:disabled,
 textarea:disabled {
    border-color: var(--color-gray);
-   background-color: var(--color-gray-light);
+   background-color: var(--color-gray);
 }
 
 input[type="text"]:invalid,
