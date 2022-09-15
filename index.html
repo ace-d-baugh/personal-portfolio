@@ -7,8 +7,8 @@
    <title>Ace Baugh | Personal Portfolio</title>
 
    <!-- CSS Styles -->
-   <link rel="stylesheet" href="/public/styles/site.css">
-   <link rel="stylesheet" href="/public/styles/responsive.css">
+   <link rel="stylesheet" href="public/styles/site.css">
+   <link rel="stylesheet" href="public/styles/responsive.css">
 
    <!-- import partials -->
    <script src="partials/_header.js"></script>
@@ -21,9 +21,11 @@
 <body>
    <header-component></header-component>
    <hero-component></hero-component>
-   <main-component></main-component>
-   <hr>
-   <projects-component></projects-component>
+   <div class="container">
+      <main-component></main-component>
+      <hr>
+      <projects-component></projects-component>
+   </div>
    <footer-component></footer-component>
 </body>
 </html>

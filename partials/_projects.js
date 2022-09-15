@@ -4,7 +4,7 @@ class Projects extends HTMLElement {
 	}
 
 	connectedCallback() {
-		this.innerHTML = `PROJECTS`;
+		this.innerHTML = `<div class="projects" id="projects">PROJECTS</div>`;
 	}
 }
 

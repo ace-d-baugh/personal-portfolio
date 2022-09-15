@@ -4,7 +4,7 @@ class Bucket extends HTMLElement {
 	}
 
 	connectedCallback() {
-		this.innerHTML = `BUCKET`;
+		this.innerHTML = `<div class="bucket" id="bucket">BUCKET LIST</div>`;
 	}
 }
 

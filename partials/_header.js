@@ -10,10 +10,10 @@ class Header extends HTMLElement {
          <div class="navbar-item"><a href="index.html">Home</a></div>
          <div class="navbar-item"><a href="about.html">About</a></div>
          <div class="navbar-item"><a href="resume.html">Resume</a></div>
-         <div class="navbar-item"><a href="index.html/#projects">Projects</a></div>
+         <div class="navbar-item"><a href="index.html#projects">Projects</a></div>
          <div class="navbar-item"><a href="diagrams-api.html">Diagrams</a></div>
-         <div class="navbar-item"><a href="diagrams-api.html/#apis">APIs</a></div>
-         <div class="navbar-item"><a href="about.html/#bucket-list">Bucket List</a></div>
+         <div class="navbar-item"><a href="diagrams-api.html#apis">APIs</a></div>
+         <div class="navbar-item"><a href="about.html#bucket-list">Bucket List</a></div>
       </div>
    </div>
 `;

@@ -6,8 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Ace Baugh | Personal Portfolio | About</title>
    <!-- CSS Styles -->
-   <link rel="stylesheet" href="/public/styles/site.css">
-   <link rel="stylesheet" href="/public/styles/responsive.css">
+   <link rel="stylesheet" href="public/styles/site.css">
+   <link rel="stylesheet" href="public/styles/responsive.css">
    <!-- import partials -->
    <script src="partials/_header.js"></script>
    <script src="partials/_footer.js"></script>
@@ -16,9 +16,11 @@
 </head>
 <body>
    <header-component></header-component>
-   <about-component></about-component>
-   <hr>
-   <bucket-component></bucket-component>
+   <div class="container">
+      <about-component></about-component>
+      <hr>
+      <bucket-component></bucket-component>
+   </div>
    <footer-component></footer-component>
 </body>
 </html>

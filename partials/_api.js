@@ -4,7 +4,7 @@ class Api extends HTMLElement {
 	}
 
 	connectedCallback() {
-		this.innerHTML = `API`;
+		this.innerHTML = `<div class="apis" id="apis">API</div>`;
 	}
 }
 
