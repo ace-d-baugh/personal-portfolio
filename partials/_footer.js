@@ -4,6 +4,8 @@ class Footer extends HTMLElement {
 	}
 
 	connectedCallback() {
+      let year = new Date().getFullYear();
+      
 		this.innerHTML = `<div class="footer col-12">
       <div class="footer-links col-12">
       <div class="footer-link"><a href="https://github.com/ace-d-baugh" target="_blank">My GitHub</a></div>
@@ -11,13 +13,8 @@ class Footer extends HTMLElement {
       <div class="footer-link"><a href="https://www.youtube.com/user/bellevueuniversity">YouTube</a></div>
       <div class="footer-link"><a href="https://github.com/buwebdev">Bellevue University's Web Dev GitHub</a></div>
       </div>
-      <div class="copyright">All Rights Reserved | Ace Baugh &copy;</div>
-   </div>
-   <script>
-      let year = new Date().getFullYear();
-      document.querySelector('.copyright').innerHTML += year;
-   </script>
-`;
+      <div class="copyright">&copy; ${year} All Rights Reserved | Ace Baugh</div>
+   </div>`;
 	}
 }
 

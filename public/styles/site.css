@@ -26,6 +26,10 @@ body {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -172,6 +176,7 @@ a:focus {
    background-color: var(--color-gray);
    margin: 0 auto;
    padding: 0 2rem;
+   flex-grow: 1;
 } 
 
 /* Main */
@@ -181,6 +186,7 @@ main {
 
 /* Footer */
 .footer {
+   height: 5rem;
    padding: 1rem 2rem;
    background-color: var(--color-primary);
    display: flex;
