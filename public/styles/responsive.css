@@ -295,6 +295,11 @@
       flex: 0 0 100%;
       max-width: 100%;
    }
+
+   /* Site Navigation */
+   .navbar {
+      display: flex;
+   }
 }
 
 /* Responsive Extra Large Size */
@@ -391,5 +396,13 @@
    .col-xl-12 {
       flex: 0 0 100%;
       max-width: 100%;
+   }
+}
+
+/* Responsive Mobile Only */
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+   .tapForMore {
+      display: block;
    }
 }

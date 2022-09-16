@@ -86,7 +86,7 @@ a:focus {
 }
 
 .navbar {
-   display: flex;
+   display: none;
    justify-content: center;
    align-items: center;
    height: 100%;
@@ -309,6 +309,19 @@ main {
    padding-top: 50%;
 }
 
+.tapForMore {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+   padding-bottom: 1rem;
+   display: none;
+}
+
 .card-back {
    position: absolute;
    width: 100%;
@@ -339,9 +352,17 @@ main {
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
    padding: .5rem 1rem;
+   width: 18rem;
 }
 
+.tech-icons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
 .tech-icon {
    margin: 0.25rem 0.5rem;
    font-size: 1.5rem;

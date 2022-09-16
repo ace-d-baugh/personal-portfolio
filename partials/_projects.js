@@ -54,6 +54,7 @@ class Projects extends HTMLElement {
 								<div class="project-description">
 									<p>${projectDescription}</p>
 								</div>
+                        <div class="tapForMore">Tap for more</div>
 							</div>
 							<div class="card-back">
                         <div class="project-title">
@@ -61,7 +62,7 @@ class Projects extends HTMLElement {
 								</div>
                         <div class="tech-used">
                            <h5>Technologies Used</h5>
-                           <div class="row center">
+                           <div class="tech-icons row center">
                               ${getTechUsed()}
                            </div>
                         </div>
