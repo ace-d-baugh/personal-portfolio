@@ -379,7 +379,7 @@ main {
 
 /* Footer */
 .footer {
-   height: 5rem;
+   min-height: 5rem;
    padding: 1rem 2rem;
    background-color: var(--color-primary);
    display: flex;
