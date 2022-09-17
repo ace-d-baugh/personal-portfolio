@@ -401,7 +401,7 @@
 
 /* Responsive Mobile Only */
 /* smartphones, touchscreens */
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) {
    .tapForMore {
       display: block;
    }
