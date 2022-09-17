@@ -319,6 +319,7 @@ main {
    justify-content: center;
    align-items: center;
    font-size: 1rem;
+   font-family: var(--font-emphasis);
    padding-bottom: 1rem;
 }
 
