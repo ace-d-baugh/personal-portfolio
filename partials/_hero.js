@@ -1,3 +1,12 @@
+/*============================================
+; Title: Assignment Personal Portfolio - _hero.js
+; Author: Ace Baugh
+; Start Date: 09/05/2022
+; Description: WEB 330 Personal Portfolio Landing Page 
+;              This partial contains a hero image and
+;              link to the about page.
+============================================*/
+
 class Hero extends HTMLElement {
 	constructor() {
 		super();

@@ -1,3 +1,12 @@
+/*============================================
+; Title: Assignment Personal Portfolio - _header.js
+; Author: Ace Baugh
+; Start Date: 09/05/2022
+; Description: WEB 330 Personal Portfolio ALL Pages
+;              This partial contains a Logo and
+;              navigation bar with links.
+============================================*/
+
 class Header extends HTMLElement {
 	constructor() {
 		super();

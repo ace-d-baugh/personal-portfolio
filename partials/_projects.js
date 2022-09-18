@@ -1,11 +1,20 @@
+/*============================================
+; Title: Assignment Personal Portfolio - _projects.js
+; Author: Ace Baugh
+; Start Date: 09/05/2022
+; Description: WEB 330 Personal Portfolio Landing Page 
+;              This partial showcases the projects from 
+;              the Bellevue University Web Development
+;              program that I created.
+============================================*/
+
 class Projects extends HTMLElement {
 	constructor() {
 		super();
 	}
 
 	connectedCallback() {
-
-      const projects = [
+		const projects = [
 			{
 				projectTitle: 'Web 231',
 				projectDescription:
@@ -89,8 +98,7 @@ class Projects extends HTMLElement {
 			},
 		];
 
-
-      const technologies = {
+		const technologies = {
 			HTML: 'fa-brands fa-html5',
 			CSS: 'fa-brands fa-css3-alt',
 			JavaScript: 'fa-brands fa-square-js',
@@ -106,25 +114,25 @@ class Projects extends HTMLElement {
 			WordPress: 'fa-brands fa-wordpress',
 		};
 
-      function getIcon(tech) {
-         return technologies[tech];
-      }
+		function getIcon(tech) {
+			return technologies[tech];
+		}
 
-      function getTechUsed(techList) {
-         let techUsed = '';
-         for (let tech of techList) {
-            techUsed += `<div class="tech-icon">
+		function getTechUsed(techList) {
+			let techUsed = '';
+			for (let tech of techList) {
+				techUsed += `<div class="tech-icon">
                            <i class="${getIcon(tech)}"></i>
                            <p class="tech-name">${tech}</p>
                         </div>`;
-         }
-         return techUsed;
-      }
+			}
+			return techUsed;
+		}
 
-      function getProjects() {
-         let projectCards = '';
-         for (let project of projects) {
-            projectCards += `
+		function getProjects() {
+			let projectCards = '';
+			for (let project of projects) {
+				projectCards += `
                <div class="project-card-holder">
                   <div class="project-card-image"><img src="${project.projectImg}"></div>
                   <div class="project-card">
@@ -154,9 +162,10 @@ class Projects extends HTMLElement {
                      </div>
                   </div>
                </div>
-            `;}
-         return projectCards;
-      }
+            `;
+			}
+			return projectCards;
+		}
 
 		this.innerHTML = `
 			<div class="row">
