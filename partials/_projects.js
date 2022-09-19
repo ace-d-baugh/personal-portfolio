@@ -67,7 +67,7 @@ class Projects extends HTMLElement {
                            </div>
                            <div class="tech-used">
                               <h5>Technologies Used</h5>
-                              < class="tech-icons row center" id="tech-icons-${idNum}">
+                              <div class="tech-icons row center" id="tech-icons-${idNum}">
                                  ${getTechUsed(project.projectTech, idNum)}
                               </div>
                            </div>
