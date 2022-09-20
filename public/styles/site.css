@@ -240,7 +240,7 @@ main {
    }
    50% {
       top: -1rem;
-      left: 12%;
+      left: 0;
       width: 110%;
       height: 15rem;
       box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
@@ -263,7 +263,7 @@ main {
    }
    25% {
       top: -1rem;
-      left: 12%;
+      left: 0;
       width: 110%;
       height: 15rem;
       box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
