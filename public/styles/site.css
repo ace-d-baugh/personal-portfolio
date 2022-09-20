@@ -2,11 +2,12 @@
 
 :root {
    --color-primary: #FFD333;
-   --color-accent: #70D6FF;
-   --color-warning: #FF70A6;
-   --color-success: #00fcc5;
-   --color-text: #0A0F0D;
-   --color-gray: #DBDBDB;
+   --color-accent: #1C3244;
+   --color-warning: #c11111;
+   --color-success: #00ff69;
+   --color-text-dark: #1C3244;
+   --color-text-light: #FFD333;
+   --color-gray: #BBBBBB;
    --color-white: #FFFFFF;
    --font-primary: 'Halant', serif;
    --font-emphasis: 'Quintessential', cursive;
@@ -21,8 +22,8 @@
 body {
    font-family: var(--font-primary);
    font-size: 1.2rem;
-   color: var(--color-text);
-   background-color: var(--color-text);
+   color: var(--color-text-dark);
+   background-color: var(--color-text-dark);
    box-sizing: border-box;
    margin: 0;
    padding: 0;
@@ -78,7 +79,7 @@ a:focus {
    height: 100%;
    font-size: 2rem;
    font-weight: 700;
-   color: var(--color-text);
+   color: var(--color-text-dark);
    font-family: var(--font-emphasis);
    letter-spacing: 0px;
    flex: 1;
@@ -102,13 +103,13 @@ a:focus {
 
 .navbar-item:hover {
    background-color: var(--color-accent);
-   box-shadow: 0px 5px 100px var(--color-accent);
+   box-shadow: 0px 5px 100px var(--color-primary);
 }
 
 .navbar-item a {
    padding: 1rem;
    text-decoration: none;
-   color: var(--color-text);
+   color: var(--color-text-dark);
    font-size: 1.2rem;
    font-weight: 500;
 }
@@ -118,11 +119,11 @@ a:focus {
 }
 
 .navbar-item a:visited {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .navbar-item a:focus {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .navbar-item a:hover {
@@ -137,7 +138,6 @@ a:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-bottom: #f0d547;
 }
 
 .hero::before {
@@ -336,6 +336,7 @@ main {
    transform: rotateY(180deg);
    border-radius: 1.5rem;
    padding-top: 20%;
+   color: var(--color-text-light);
 }
 
 .card-back .btn:hover {
@@ -367,13 +368,13 @@ main {
 .tech-icon {
    margin: 0.25rem 0.5rem;
    font-size: 1.5rem;
-   color: var(--color-text);
+   color: var(--color-text-light);
 }
 
 .tech-name {
    font-size: .75rem;
    font-weight: 500;
-   color: var(--color-text);
+   color: var(--color-text-light);
    padding: 0;
    margin: 0;
 }
@@ -403,29 +404,29 @@ main {
 }
 
 .footer-link a {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .footer-link a:hover {
-   color: var(--color-text);
+   color: var(--color-text-dark);
    font-style: italic;
 }
 
 .footer-link a:active {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .footer-link a:visited {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .footer-link a:focus {
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .copyright {
    font-size: 0.8rem;
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 /* Buttons */
@@ -444,102 +445,102 @@ main {
 
 .btn-primary {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-primary:active {
    background-color: var(--color-accent);
-   color: var(--color-text);
+   color: var(--color-text-light);
 }
 
 .btn-primary:visited {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-primary:focus {
    background-color: var(--color-accent);
-   color: var(--color-text);
+   color: var(--color-text-light);
 }
 
 .btn-primary:hover {
    background-color: var(--color-accent);
-   color: var(--color-text);
+   color: var(--color-text-light);
 }
 
 .btn-accent {
    background-color: var(--color-accent);
-   color: var(--color-text);
+   color: var(--color-text-light);
 }
 
 .btn-accent:active {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-accent:visited {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-accent:focus {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-accent:hover {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-warning {
    background-color: var(--color-warning);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-warning:hover {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-warning:active {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-warning:visited {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-warning:focus {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-success {
    background-color: var(--color-success);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-success:hover {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-success:active {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-success:visited {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 .btn-success:focus {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 /* Cards */
@@ -606,7 +607,7 @@ textarea {
    border-radius: 0.25rem;
    font-size: 1rem;
    font-weight: 400;
-   color: var(--color-text);
+   color: var(--color-text-dark);
    background-color: var(--color-white);
    transition: all 0.2s ease-in-out;
 }
@@ -669,27 +670,27 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 input[type="submit"]:active {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 input[type="submit"]:visited {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 input[type="submit"]:focus {
    background-color: var(--color-primary);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 input[type="submit"]:disabled {
    background-color: var(--color-gray);
-   color: var(--color-text);
+   color: var(--color-text-dark);
 }
 
 /* Tables */
@@ -711,6 +712,15 @@ table td {
 
 table tr:nth-child(even) {
    background-color: var(--color-gray-light);
+}
+
+/* Text Colors */
+.text-light {
+   color: var(--color-text-light);
+}
+
+.text-dark {
+   color: var(--color-text-dark);
 }
 
 /* Lists */
