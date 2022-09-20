@@ -20,7 +20,7 @@ class Projects extends HTMLElement {
 		function getTechUsed(techList, num) {
 			let techUsed = '';
          // fetch the technologies data from the json file
-         fetch('../public/data/technologies.json')
+         fetch('public/data/technologies.json')
             .then((res) => res.json())
             .then((data) => {
                // loop through the technologies list
@@ -41,7 +41,7 @@ class Projects extends HTMLElement {
 		function getProjects() {
 			let projectCards = '';
          // fetch the project data from the json file
-         fetch('../public/data/projects.json')
+         fetch('public/data/projects.json')
             .then((res) => res.json())
             .then((data) => {
                // keep track of how many cards have been created
