@@ -98,8 +98,8 @@ class Resume extends HTMLElement {
 							Disney Property while maintaining discretion and Guest confidentiality
 						</li>
 						<li>
-							Upheld a professional demeanor when reacting to quick-changing circumstances and proactively seeking out creative solutions by
-							partnering with many lines of business
+							Upheld a professional demeanor and adapting to quick-changing circumstances and proactively seeking out creative solutions by
+							collaborating with many lines of business
 						</li>
 					</ul>
 				</div>
@@ -124,7 +124,7 @@ class Resume extends HTMLElement {
 					<ul>
 						<li>Worked closely with Disney Imagineering team to improve attractions prior to launch</li>
 						<li>Provided legendary guest service and assisted 1500+ guests per hour at the newly opened, fast-paced attractions</li>
-						<li>Trained newly employed Cast Members, trainers, and seasoned managers on all aspects of the company and ride</li>
+						<li>Trained newly employed Cast Members, trainers, and seasoned managers on all aspects of the company and attraction</li>
 						<li>Recognized by guests, peers, and leaders for yearly award for exceptional work ethic</li>
 					</ul>
 				</div>
@@ -141,8 +141,7 @@ class Resume extends HTMLElement {
 			</div>
 			<!-- Certification & Awards Section -->
 			<div class="certifications">
-				<div class="resume-section-header"><i class="fa-regular fa-file-certificate"></i>Certifications</div>
-				<!--  & Accolades -->
+				<div class="resume-section-header"><i class="fa-regular fa-file-certificate"></i>Awards & Certifications</div>
 				<div class="award-name">Dean's List</div>
 				<div class="award-issuer">Bellevue University</div>
 				<div class="award-name">Dean's List</div>

@@ -19,7 +19,7 @@ class Hero extends HTMLElement {
 
          <h2 class="hero-subtitle text-light mt-3">I am a Full-Stack Developer</h2>
 
-         <a href="/about.html" class="btn btn-primary">Get To Know Me</a>
+         <a href="about.html" class="btn btn-primary">Get To Know Me</a>
       </div>
    </div>`;
 	}
