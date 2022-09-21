@@ -227,7 +227,7 @@ class Resume extends HTMLElement {
 	</div>
 </div>
 <div class="resume-btn">
-	<div class="btn btn-primary"><a href="public/data/ace-baugh-resume.pdf" target="_blank">Download CV/Resume</a></div>
+	<a href="public/data/ace-baugh-resume.pdf" target="_blank"><div class="btn btn-primary">Download CV/Resume</div></a>
 </div>
 `;
 	}
