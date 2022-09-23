@@ -7,6 +7,7 @@
 	--color-success: #00ff69;
 	--color-text-dark: #1c3244;
 	--color-text-light: #ffd333;
+	--color-black: #000000;
 	--color-gray: #bbbbbb;
 	--color-white: #ffffff;
 	--font-primary: 'Halant', serif;
@@ -87,8 +88,16 @@ a:focus {
 	color: var(--color-text-dark);
 	font-family: var(--font-emphasis);
 	letter-spacing: 0px;
-	flex: 1;
 	padding: 1rem 0;
+}
+
+.ace-logo {
+	fill: var(--color-accent);
+}
+
+.ace-c,
+.ace-e-main {
+	fill: var(--color-black);
 }
 
 .navbar {
@@ -547,7 +556,22 @@ main {
 	color: var(--color-text-dark);
 }
 
+/* DIAGRAMS */
+.diagrams {
+	margin: 6rem 0 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Cards */
+.cards-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;
@@ -556,10 +580,18 @@ main {
 	padding: 1rem;
 	border-radius: 0.25rem;
 	background-color: var(--color-white);
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
 }
 
 .card:hover {
-	box-shadow: 0 0 0 0.25rem var(--color-primary);
+	box-shadow: 0 0 1rem var(--color-primary);
+}
+
+.card-image {
+	width: 100%;
+	margin: 1rem 0;
+	text-align: center;
 }
 
 .card img {

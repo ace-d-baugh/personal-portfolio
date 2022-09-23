@@ -7,14 +7,86 @@
 ;              unit tests I made in the WEB 420 course.
 ============================================*/
 
-class Api extends HTMLElement {
+class APIs extends HTMLElement {
 	constructor() {
 		super();
 	}
 
 	connectedCallback() {
-		this.innerHTML = `<div class="apis" id="apis">API</div>`;
+		this.innerHTML = `		
+			<div class="apis col-12">
+				<h1>APIs</h1>
+					<div class="cards-container">
+				<div class="card">
+					<div class="card-header">
+						<h2>API 1</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 1" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>API 2</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 2" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>API 3</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 3" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>API 4</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 4" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>API 5</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 5" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>API 6</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/17448828_coding.jpg" alt="api 6" />
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+`;
 	}
 }
 
-customElements.define('api-component', Api);
+customElements.define('apis-component', APIs);
