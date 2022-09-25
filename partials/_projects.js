@@ -89,7 +89,8 @@ class Projects extends HTMLElement {
 
       // Creates the projects holder and calls the getProjects function
 		this.innerHTML = `
-			<div class="row" id="projects">
+			<div class="projects row" id="projects">
+            <h1 class="section-header">Projects</h1>
 				<div class="project-container center" id="project-container">
                ${getProjects()}
 				</div>

@@ -14,7 +14,7 @@ class Bucket extends HTMLElement {
 
 	connectedCallback() {
 		this.innerHTML = `
-							<div class="bucket-list col-12">
+							<div class="bucket-list col-12" id="bucket-list">
 				<h1>My Bucket List</h1>
 					<div class="cards-container">
 				<div class="card">
