@@ -14,7 +14,7 @@ class APIs extends HTMLElement {
 
 	connectedCallback() {
 		this.innerHTML = `		
-			<div class="apis col-12">
+			<div class="apis col-12" id="apis">
 				<h1>APIs</h1>
 					<div class="cards-container">
 				<div class="card">
@@ -23,7 +23,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 1" />
+							<img src="public/images/coding.jpg" alt="api 1" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>
@@ -34,7 +34,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 2" />
+							<img src="public/images/coding.jpg" alt="api 2" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>
@@ -45,7 +45,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 3" />
+							<img src="public/images/coding.jpg" alt="api 3" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>
@@ -56,7 +56,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 4" />
+							<img src="public/images/coding.jpg" alt="api 4" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>
@@ -67,7 +67,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 5" />
+							<img src="public/images/coding.jpg" alt="api 5" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>
@@ -78,7 +78,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/17448828_coding.jpg" alt="api 6" />
+							<img src="public/images/coding.jpg" alt="api 6" />
 						</div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
 					</div>

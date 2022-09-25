@@ -194,7 +194,6 @@ a:focus {
 .container {
 	background-color: var(--color-gray);
 	margin: 0 auto;
-	padding: 0 2rem;
 	flex-grow: 1;
 }
 
@@ -556,13 +555,77 @@ main {
 	color: var(--color-text-dark);
 }
 
-/* DIAGRAMS */
-.diagrams {
+.favorites {
+	margin: 6rem 0;
+	width: 100%;
+	background-color: var(--color-primary);
+}
+
+.favorites h1 {
+	text-align: center;
+}
+
+.fave-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.fave-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.fave-item img {
+	width: 30%;
+	margin: 1rem;
+}
+
+.fave-item-words {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem 0;
+	text-align: justify;
+}
+
+.fave-item-words h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 0 0 1rem;
+}
+
+.reverse {
+	transform: rotate3d(0, 1, 0, 180deg);
+}
+
+/* BUCKET LIST */
+.bucket-list {
 	margin: 6rem 0 1rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+}
+
+/* DIAGRAMS */
+.diagrams {
+	margin: 6rem 0 1rem;
+}
+
+/* APIs */
+.apis {
+	margin: 1rem 0;
+}
+
+.diagrams, .apis {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
 }
 
 /* Cards */
@@ -605,6 +668,10 @@ main {
 	margin: 1rem 0;
 }
 
+.card-content {
+	flex:1;
+}
+
 .card p {
 	margin: 1rem 0;
 }
@@ -613,6 +680,9 @@ main {
 	margin: 1rem 0;
 }
 
+.card-header {
+	text-align: center;
+}
 .card-footer {
 	display: flex;
 	justify-content: space-between;
