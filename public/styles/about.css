@@ -1,0 +1,96 @@
+/* About Me Section */
+.about-me-container {
+	margin: 6rem 0 0;
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.about-me-section {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+}
+
+.about-me-header {
+	padding-bottom: 3rem;
+}
+
+.about-me-who {
+	color: var(--color-primary);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.about-me-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.about-me {
+	padding: 2rem 0;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
+.about-me-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.about-me-image img {
+	height: 30rem;
+   border-radius: 2rem;
+}
+
+/* Favorites Section */
+.favorites {
+	width: 100%;
+	background-color: var(--color-primary);
+}
+
+.favorites h1 {
+	text-align: center;
+}
+
+.fave-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.fave-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.fave-item img {
+	width: 30%;
+	margin: 1rem;
+}
+
+.fave-item-words {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem 0;
+}
+
+.fave-item-words h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 0 0 1rem;
+}
+
+/* Bucket List Section */
+.bucket-list {
+	margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}

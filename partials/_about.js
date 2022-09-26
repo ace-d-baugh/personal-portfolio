@@ -19,7 +19,7 @@ class About extends HTMLElement {
 					<h1 class="about-me-header">About Me</h1>
 					<div class="about-me-who">Who Am I?</div>
 					<div class="about-me-title">I am Ace Baugh, a Full Stack Developer</div>
-					<p class="about-me">I currently work for the Walt Disney Company in sunny Central Florida. I am passionate about coding, photography, and my family. I am a rapid learner when it comes to technology and hope to work for a company that wants to push the envelope and keep moving forward. I am studying Full Stack Web Development at Bellevue University and will be graduating in the summer of 2023.</p>
+					<p class="about-me justify">I currently work for the Walt Disney Company in sunny Central Florida. I am passionate about coding, photography, and my family. I am a rapid learner when it comes to technology and hope to work for a company that wants to push the envelope and keep moving forward. I am studying Full Stack Web Development at Bellevue University and will be graduating in the summer of 2023.</p>
 					<div class="about-me-buttons">
 						<a href="#bucket-list" class="btn btn-primary">My Bucket List</a>
 						<a href="resume.html" class="btn btn-primary">My Resume/CV</a>

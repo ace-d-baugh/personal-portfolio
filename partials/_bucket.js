@@ -113,7 +113,7 @@ class Bucket extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/space.jpg" alt="Diagram 6" />
 						</div>
-						<p>There is almost no other way to dream any bigger than saying you want to reach for the stars literally. Going into outer space and feeling weightless while going where so few have gone, would be an ultimate dream. I am fascinated with space and would enjoy a chance to see it in person.</p>
+						<p>There is almost no way to dream any bigger than saying you want to reach for the stars, literally. Going into outer space and feeling weightless while going where so few have gone, would be an ultimate dream. I am fascinated with space and would enjoy a chance to see it in person.</p>
 					</div>
 				</div>
 			</div>
