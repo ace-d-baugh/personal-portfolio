@@ -17,10 +17,19 @@ class Footer extends HTMLElement {
 
 		this.innerHTML = `<div class="footer col-12">
       <div class="footer-links col-12">
-      <div class="footer-link"><a href="https://github.com/ace-d-baugh" target="_blank">My GitHub</a></div>
-      <div class="footer-link"><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue University's Web Development Degree</a></div>
-      <!--<div class="footer-link"><a href="https://www.youtube.com/user/bellevueuniversity" target="_blank">YouTube</a></div>-->
-      <div class="footer-link"><a href="https://github.com/buwebdev" target="_blank">Bellevue University's Web Dev GitHub</a></div>
+         <div class="footer-link"><a href="index.html">Home</a></div>
+         <div class="footer-link"><a href="about.html">About</a></div>
+         <div class="footer-link"><a href="resume.html">Resume</a></div>
+         <div class="footer-link"><a href="index.html#projects">Projects</a></div>
+         <div class="footer-link"><a href="diagrams-api.html">Diagrams</a></div>
+         <div class="footer-link"><a href="diagrams-api.html#apis">APIs</a></div>
+         <div class="footer-link"><a href="about.html#bucket-list">Bucket List</a></div>
+      </div>
+      <div class="footer-links col-12">
+         <div class="footer-link"><a href="https://github.com/ace-d-baugh" target="_blank">My GitHub</a></div>
+         <div class="footer-link"><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue University's Web Development Degree</a></div>
+         <!--<div class="footer-link"><a href="https://www.youtube.com/user/bellevueuniversity" target="_blank">YouTube</a></div>-->
+         <div class="footer-link"><a href="https://github.com/buwebdev" target="_blank">Bellevue University's Web Dev GitHub</a></div>
       </div>
       <div class="copyright">&copy; ${year} All Rights Reserved | Ace Baugh</div>
    </div>`;
