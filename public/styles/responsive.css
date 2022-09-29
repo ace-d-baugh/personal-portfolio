@@ -101,6 +101,12 @@
    }
 }
 
+@media (max-width: 767px) {
+   .navbar-item {
+      font-size: .75rem;
+   }
+}
+
 /* Responsive Medium Size */
 @media (min-width: 768px) {
    .container {
@@ -196,6 +202,11 @@
       flex: 0 0 100%;
       max-width: 100%;
    }
+
+   .ace-logo {
+      width: 80%;
+   }
+
 }
 
 /* Responsive Large Size */
@@ -294,9 +305,20 @@
       max-width: 100%;
    }
 
-   /* Site Navigation */
-   .navbar {
-      display: flex;
+   .ace-logo {
+      width: 100%;
+   }
+
+   .cards-container {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .big-screen {
+      display: block;
+   }
+
+   .small-screen {
+      display: none;
    }
 }
 
@@ -395,6 +417,11 @@
       flex: 0 0 100%;
       max-width: 100%;
    }
+
+   .cards-container {
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+
 }
 
 /* Responsive Mobile Only */

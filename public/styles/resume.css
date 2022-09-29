@@ -9,6 +9,22 @@
    background-color: var(--color-white);
 }
 
+.small-screen {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.small-screen img {
+   width: 100%;
+   border-radius: 2rem;
+}
+
+.big-screen {
+   display: none;
+}
+
 .resume-top {
    width: 100%;
    display: grid;

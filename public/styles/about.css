@@ -1,9 +1,9 @@
 /* About Me Section */
 .about-me-container {
-	margin: 6rem 0 0;
+	margin: 6rem 0 1rem;
 	padding: 0 1rem;
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
 }
 
 .about-me-section {
@@ -41,8 +41,8 @@
 }
 
 .about-me-image img {
-	height: 30rem;
    border-radius: 2rem;
+	width: 100%;
 }
 
 /* Favorites Section */
@@ -90,7 +90,8 @@
 .bucket-list {
 	margin: 1rem;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
