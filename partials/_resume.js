@@ -5,6 +5,7 @@
 ; This partial contains my resume in HTML format 
 ; and a link to download the resume pdf.
 ============================================*/
+
 class Resume extends HTMLElement {
 	constructor() {
 		super();
