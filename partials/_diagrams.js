@@ -25,7 +25,7 @@ class Diagrams extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/nodeShopper.png" alt="NodeShopper Diagram" />
 						</div>
-						<p>
+						<p><strong>Business Rules</strong></p>
 							<ol>
 								<li>a CUSTOMER can have many INVOICE(s)</li>
 								<li>many INVOICE(s) are assigned to a CUSTOMER</li>
@@ -43,7 +43,7 @@ class Diagrams extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/nodeTech.png" alt="NodeTech Diagram" />
 						</div>
-						<p>
+						<p><strong>Business Rules</strong>
 							<ol>
 								<li>a STUDENT has many ENROLLMENT(s)</li>
 								<li>an ENROLLMENT has many COURSE(s)</li>
