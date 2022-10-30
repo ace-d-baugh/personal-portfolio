@@ -19,24 +19,37 @@ class Diagrams extends HTMLElement {
 					<div class="cards-container">
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 1</h2>
+						<h2>NodeShopper Diagram</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 1" />
+							<img src="public/images/nodeShopper.png" alt="NodeShopper Diagram" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>
+							<ol>
+								<li>a CUSTOMER can have many INVOICE(s)</li>
+								<li>many INVOICE(s) are assigned to a CUSTOMER</li>
+								<li>an INVOICE can have many LINEITEM(s)</li>
+								<li>many LINEITEMs are added to an INVOICE</li>
+							</ol>
+						</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 2</h2>
+						<h2>NodeTech Diagram</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 2" />
+							<img src="public/images/nodeTech.png" alt="NodeTech Diagram" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>
+							<ol>
+								<li>a STUDENT has many ENROLLMENT(s)</li>
+								<li>an ENROLLMENT has many COURSE(s)</li>
+								<li>a STUDENT ENROLL(s) in many COURSE(s)</li>
+							</ol>
+						</p>
 					</div>
 				</div>
 				<div class="card">
