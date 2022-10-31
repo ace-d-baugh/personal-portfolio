@@ -54,24 +54,35 @@ class Diagrams extends HTMLElement {
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 3</h2>
+						<h2>NodeSecurity Diagram</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 3" />
+							<img src="public/images/nodeSecurity.png" alt="NodeSecurity Diagram" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p><strong>Business Rules</strong>
+							<ol>
+								<li>a USER can have one or more assigned ROLE(s)</li>
+								<li>a ROLE is associated with many PERMISSION(s)</li>
+							</ol>
+						</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 4</h2>
+						<h2>NodeBookCo Diagram</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 4" />
+							<img src="public/images/nodeBookCo.png" alt="NodeBookCo Diagram" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p><strong>Business Rules</strong>
+							<ol>
+								<li>a PUBLISHER can have one or more BOOK(s)</li>
+								<li>a BOOK can have one or more AUTHOR(s)</li>
+								<li>an AUTHOR can have one or more BOOK(s)</li>
+							</ol>
+						</p>
 					</div>
 				</div>
 				<div class="card">
