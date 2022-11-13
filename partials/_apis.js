@@ -19,35 +19,35 @@ class APIs extends HTMLElement {
 					<div class="cards-container">
 				<div class="card">
 					<div class="card-header">
-						<h2>API 1</h2>
+						<h2>Swagger Get</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 1" />
+							<img src="public/images/Swagger-Get.PNG" alt="Swaggger Get" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This is an attempt at getting API data from the Swagger UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>API 2</h2>
+						<h2>SoapUI Post</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 2" />
+							<img src="public/images/SoapUI-Post.PNG" alt="SoapUI Post" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This is an attempt at getting API data from the Soap UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>API 3</h2>
+						<h2>SoapUI- Get By Id</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 3" />
+							<img src="public/images/SoapUI-getId.PNG" alt="SoapUI- Get By Id" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This is an attempt at getting API data from the Soap UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
 					</div>
 				</div>
 				<div class="card">
