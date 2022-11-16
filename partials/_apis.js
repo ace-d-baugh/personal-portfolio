@@ -25,7 +25,7 @@ class APIs extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/Swagger-Get.PNG" alt="Swaggger Get" />
 						</div>
-						<p>This is an attempt at getting API data from the Swagger UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
+						<p>This shows all documents in the database using Swagger UI through the GET protocol.</p>
 					</div>
 				</div>
 				<div class="card">
@@ -36,7 +36,7 @@ class APIs extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/SoapUI-Post.PNG" alt="SoapUI Post" />
 						</div>
-						<p>This is an attempt at getting API data from the Soap UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
+						<p>This shows how I added documents to the database using SoapUI through the POST protocol.</p>
 					</div>
 				</div>
 				<div class="card">
@@ -47,29 +47,29 @@ class APIs extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/SoapUI-getId.PNG" alt="SoapUI- Get By Id" />
 						</div>
-						<p>This is an attempt at getting API data from the Soap UI in the routes. Not sure if we are supposed to show actual data from the Database, but so far nothing is in there.</p>
+						<p>This shows any document in the database that matches the provided ID using SoapUI through the GET protocol.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>API 4</h2>
+						<h2>SoapUI GET</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 4" />
+							<img src="public/images/SoapUI-Get" alt="SoapUI GET" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This shows all documents in the database using SoapUI through the GET protocol.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>API 5</h2>
+						<h2>Swagger Post</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 5" />
+							<img src="public/images/Swagger-Post" alt="Swagger Post" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This shows how I added documents to the database using Swagger UI through the POST protocol.</p>
 					</div>
 				</div>
 				<div class="card">
