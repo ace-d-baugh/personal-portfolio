@@ -74,13 +74,24 @@ class APIs extends HTMLElement {
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>API 6</h2>
+						<h2>SoapUI SignUp Post</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="api 6" />
+							<img src="public/images/SoapUI-Post-Signup.PNG" alt="SoapUI SignUp Post" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p>This shows how I added documents to the database using SoapUI through the POST protocol.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Password Verify  Post</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Post-Password-Verify.PNG" alt="Swagger Password Verify Post" />
+						</div>
+						<p>This shows how I verify passwords in the database using Swagger UI through the POST protocol.</p>
 					</div>
 				</div>
 			</div>
