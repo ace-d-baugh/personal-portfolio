@@ -56,7 +56,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/SoapUI-Get" alt="SoapUI GET" />
+							<img src="public/images/SoapUI-Get.PNG" alt="SoapUI GET" />
 						</div>
 						<p>This shows all documents in the database using SoapUI through the GET protocol.</p>
 					</div>
@@ -67,7 +67,7 @@ class APIs extends HTMLElement {
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/Swagger-Post" alt="Swagger Post" />
+							<img src="public/images/Swagger-Post.PNG" alt="Swagger Post" />
 						</div>
 						<p>This shows how I added documents to the database using Swagger UI through the POST protocol.</p>
 					</div>
