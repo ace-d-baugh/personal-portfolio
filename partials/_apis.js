@@ -85,13 +85,46 @@ class APIs extends HTMLElement {
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Swagger Password Verify  Post</h2>
+						<h2>Swagger Password Verify Post</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
 							<img src="public/images/Swagger-Post-Password-Verify.PNG" alt="Swagger Password Verify Post" />
 						</div>
 						<p>This shows how I verify passwords in the database using Swagger UI through the POST protocol.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>SoapUI Post New Customer</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/SoapUI-Post-NewCustomer.PNG" alt="SoapUI Post New Customer" />
+						</div>
+						<p>This shows how I added a new customer to the database using SoapUI through the POST protocol.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Post New Invoice</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Post-LineItem.PNG" alt="Swagger Post New Invoice" />
+						</div>
+						<p>This shows how I added new Invoices to an existing customer to the database using Swagger through the POST protocol.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>SoapUI Get Invoices</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/SoapUI-Get-Customers.PNG" alt="SoapUI Get Invoices" />
+						</div>
+						<p>This shows how I vew invoices by customer userName in the database using SoapUI through the GET protocol.</p>
 					</div>
 				</div>
 			</div>
