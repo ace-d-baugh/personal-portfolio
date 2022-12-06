@@ -113,18 +113,29 @@ class APIs extends HTMLElement {
 						<div class="card-image">
 							<img src="public/images/Swagger-Post-LineItem.PNG" alt="Swagger Post New Invoice" />
 						</div>
-						<p>This shows how I added new Invoices to an existing customer to the database using Swagger through the POST protocol.</p>
+						<p>This shows how I added new Invoices to an existing customer by Id to the database using Swagger through the POST protocol.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>SoapUI Get Invoices</h2>
+						<h2>SoapUI Put</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/SoapUI-Get-Customers.PNG" alt="SoapUI Get Invoices" />
+							<img src="public/images/SoapUI-Put.PNG" alt="SoapUI Put" />
 						</div>
-						<p>This shows how I vew invoices by customer userName in the database using SoapUI through the GET protocol.</p>
+						<p>This shows how I update the first and last name of a composer by Id in the database using SoapUI through the PUT protocol.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Delete</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Delete.PNG" alt="Swagger Delete" />
+						</div>
+						<p>This shows how I delete composers by Id from the database using Swagger through the DELETE protocol.</p>
 					</div>
 				</div>
 			</div>

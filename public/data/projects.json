@@ -19,7 +19,7 @@
 		"projectTitle": "Pets-R-Us",
 		"projectDescription": "Web 340 Capstone Project. This project is a NodeJS and express application that allows users to create appointments and new users using a mongoDB database.",
 		"projectImg": "public/images/pets-r-us.png",
-		"projectView": "https://ace-d-baugh-pets-r-us.herokuapp.com",
+		"projectView": "https://ace-d-baugh-pets-r-us.onrender.com/",
 		"projectCode": "https://github.com/ace-d-baugh/pets-r-us",
 		"projectTech": ["HTML", "CSS", "JavaScript", "NodeJS", "Express", "MongoDB"]
 	},
