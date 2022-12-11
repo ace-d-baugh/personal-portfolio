@@ -87,13 +87,20 @@ class Diagrams extends HTMLElement {
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 5</h2>
+						<h2>WhatABook ORD</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 5" />
+							<img src="public/images/whatABookORD.png" alt="WhatABook ORD" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p><strong>Business Rules</strong>
+							<ol>
+								<li>WhatABook has many BOOK(s)</li>
+								<li>a CUSTOMER can add many BOOK(s) to their WISHLIST</li>
+								<li>a CUSTOMER can have many WISHLIST BOOK(s)</li>
+								<li>WhatABook has many CUSTOMER(s)</li>
+							</ol>
+						</p>
 					</div>
 				</div>
 				<div class="card">
