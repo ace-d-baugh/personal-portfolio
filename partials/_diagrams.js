@@ -105,13 +105,17 @@ class Diagrams extends HTMLElement {
 				</div>
 				<div class="card">
 					<div class="card-header">
-						<h2>Diagram 6</h2>
+						<h2>420 Capstone ORD</h2>
 					</div>
 					<div class="card-content">
 						<div class="card-image">
-							<img src="public/images/coding.jpg" alt="Diagram 6" />
+							<img src="public/images/capstoneORD.PNG" alt="420 Capstone ORD" />
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deleniti, nesciunt recusandae aperiam sint facilis accusamus alias fugiat quia culpa iusto ullam? Facere cupiditate non voluptatem aliquid impedit quos labore!</p>
+						<p<strong>Business Rules</strong>
+							<ol>
+								<li>a TEAM can have many players</li>
+								<li>•	a TEAM can have one mascot</li>
+							</ol></p>
 					</div>
 				</div>
 			</div>

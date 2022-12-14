@@ -127,6 +127,7 @@ class APIs extends HTMLElement {
 						<p>This shows how I update the first and last name of a composer by Id in the database using SoapUI through the PUT protocol.</p>
 					</div>
 				</div>
+				
 				<div class="card">
 					<div class="card-header">
 						<h2>Swagger Delete</h2>
@@ -136,6 +137,54 @@ class APIs extends HTMLElement {
 							<img src="public/images/Swagger-Delete.PNG" alt="Swagger Delete" />
 						</div>
 						<p>This shows how I delete composers by Id from the database using Swagger through the DELETE protocol.</p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Find All Teams</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Get-Teams.PNG" alt="Swagger Find All Teams" />
+						</div>
+						<p>This shows how retrieve all the teams of the database using Swagger through the GET protocol.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Assign Player To Team</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Post-Team-Player.PNG" alt="Swagger Assign Player To Team" />
+						</div>
+						<p>This shows how I added new Players to an existing Team by Id to the database using Swagger through the POST protocol.</p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Find Players by Team ID</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/SoapUI-Put.PNG" alt="Swagger Find Players by Team ID" />
+						</div>
+						<p>This shows how I retrieve all players by the team Id in the database using Swagger through the GET protocol.</p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<h2>Swagger Delete Team</h2>
+					</div>
+					<div class="card-content">
+						<div class="card-image">
+							<img src="public/images/Swagger-Delete-Team.PNG" alt="Swagger Delete Team" />
+						</div>
+						<p>This shows how I delete a Team by ID from the database using Swagger through the DELETE protocol.</p>
 					</div>
 				</div>
 			</div>
