@@ -32,6 +32,14 @@
 		"projectTech": ["HTML", "CSS", "JavaScript"]
 	},
 	{
+		"projectTitle": "Web 420 Capstone",
+		"projectDescription": "This course presents the use and testing of APIs (Application Programming Interfaces) utilizing the Swagger and SoapUI tools. View the  Diagrams and APIs links above for more info.",
+		"projectImg": "public/images/portfolio-capstone.png",
+		"projectView": "https://baugh-web-420.onrender.com/api-docs/",
+		"projectCode": "https://github.com/ace-d-baugh/web-420",
+		"projectTech": ["JavaScript"]
+	},
+	{
 		"projectTitle": "Composer App",
 		"projectDescription": "Learn Angular with TypeScript by building real-world applications. This course covers frameworks and how to build client-rich applications using Angular with TypeScript.",
 		"projectImg": "public/images/coding.jpg",
