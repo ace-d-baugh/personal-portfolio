@@ -34,7 +34,7 @@
 	{
 		"projectTitle": "Web 420 Capstone",
 		"projectDescription": "This course presents the use and testing of APIs (Application Programming Interfaces) utilizing the Swagger and SoapUI tools. View the  Diagrams and APIs links above for more info.",
-		"projectImg": "public/images/portfolio-capstone.png",
+		"projectImg": "public/images/420capstone.PNG",
 		"projectView": "https://baugh-web-420.onrender.com/api-docs/",
 		"projectCode": "https://github.com/ace-d-baugh/web-420",
 		"projectTech": ["JavaScript"]
