@@ -104,8 +104,7 @@ class DevOps extends HTMLElement {
                ${getPresents()}
 				</div>
 			</div>
-         <!-- <div id="modal" style="display:none;"> -->
-         </div>
+         <!-- <div id="modal" style="display:none;"> </div> -->
       `;
 	}
 }
