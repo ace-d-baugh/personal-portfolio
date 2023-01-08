@@ -1,56 +1,56 @@
 [
    {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentTitle":"The Technology Value Stream",
+      "presentDescription":"This presentation discusses the value stream and how it can be used to improve DevOps.",
+      "presentImg":"public/images/WEB430-w1.PNG",
+      "presentLink":"public/videos/WEB430-w1.mp4"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
       "presentDescription":"This is the presentation",
-      "presentImage":"http://www.google.com/images/srpr/logo11w.png",
-      "presentLink":"http://www.google.com"
+      "presentImg":"public/images/coding.jpg",
+      "presentLink":"#"
    }
 ]

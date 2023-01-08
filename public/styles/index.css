@@ -292,3 +292,40 @@
 	padding: 0;
 	margin: 0;
 }
+
+#modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	transition: all 0.5s ease-in-out;
+}
+
+.modal {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	background-color: var(--color-primary);
+	border-radius: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: all 0.5s ease-in-out;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 3rem;
+	color: var(--color-accent);
+	padding: 1rem;
+	cursor: pointer;
+}
