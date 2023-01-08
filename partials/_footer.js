@@ -23,6 +23,7 @@ class Footer extends HTMLElement {
          <div class="footer-link"><a href="index.html#projects">Projects</a></div>
          <div class="footer-link"><a href="diagrams-api.html">Diagrams</a></div>
          <div class="footer-link"><a href="diagrams-api.html#apis">APIs</a></div>
+         <div class="footer-link"><a href="devops.html">DevOps</a></div>
          <div class="footer-link"><a href="about.html#bucket-list">Bucket List</a></div>
       </div>
       <div class="footer-links col-12">

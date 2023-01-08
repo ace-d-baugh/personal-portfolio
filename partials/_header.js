@@ -43,6 +43,7 @@ class Header extends HTMLElement {
          <div class="navbar-item"><a href="index.html#projects">Projects</a></div>
          <div class="navbar-item"><a href="diagrams-api.html">Diagrams</a></div>
          <div class="navbar-item"><a href="diagrams-api.html#apis">APIs</a></div>
+         <div class="navbar-item"><a href="devops.html">DevOps</a></div>
          <div class="navbar-item"><a href="about.html#bucket-list">Bucket List</a></div>
       </div>
    </div>
