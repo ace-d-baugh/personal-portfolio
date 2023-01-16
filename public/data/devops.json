@@ -6,10 +6,10 @@
       "presentLink":"public/videos/WEB430-w1.mp4"
    },
    {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
+      "presentTitle":"The Two-Pizza Team Rule",
+      "presentDescription":"This presentation discusses the two-pizza team rule and how it can be used to improve DevOps.",
+      "presentImg":"public/images/WEB430-w2.PNG",
+      "presentLink":"public/videos/WEB430-w2.mp4"
    },
    {
       "presentTitle":"The Presentation",
