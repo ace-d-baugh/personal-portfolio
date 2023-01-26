@@ -42,7 +42,7 @@
 	{
 		"projectTitle": "Composer App",
 		"projectDescription": "An application with a list of composers and a reactive search and routing using Angular with TypeScript.",
-		"projectImg": "public/images/composer.PNG",
+		"projectImg": "public/images/composer.png",
 		"projectView": "https://ace-d-baugh.github.io/enterprise-composer-app/",
 		"projectCode": "https://github.com/ace-d-baugh/enterprise-composer-app",
 		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
