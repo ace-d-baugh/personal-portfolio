@@ -19,9 +19,9 @@
    },
    {
       "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
+      "presentDescription":"This presentation discusses the importance of Continuous Integration.",
+      "presentImg":"public/images/WEB430-w4.PNG",
+      "presentLink":"public/videos/WEB430-w4.mp4"
    },
    {
       "presentTitle":"The Presentation",
