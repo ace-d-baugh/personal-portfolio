@@ -18,16 +18,16 @@
       "presentLink":"public/videos/WEB430-w3.mp4"
    },
    {
-      "presentTitle":"The Presentation",
+      "presentTitle":"Continuous Integration",
       "presentDescription":"This presentation discusses the importance of Continuous Integration.",
       "presentImg":"public/images/WEB430-w4.PNG",
       "presentLink":"public/videos/WEB430-w4.mp4"
    },
    {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
+      "presentTitle":"Pager Rotation Duties",
+      "presentDescription":"This presentation discusses the importance of pager rotation duties.",
+      "presentImg":"public/images/WEB430-w5.PNG",
+      "presentLink":"public/videos/WEB430-w5.mp4"
    },
    {
       "presentTitle":"The Presentation",
