@@ -49,11 +49,11 @@
 	},
 	{
 		"projectTitle": "GPA Calculator App",
-		"projectDescription": "Learn Angular with TypeScript by building real-world applications. This course covers frameworks and how to build client-rich applications using Angular with TypeScript.",
-		"projectImg": "public/images/coding.jpg",
-		"projectView": "https://ace-d-baugh.github.io/web-330/",
-		"projectCode": "https://github.com/ace-d-baugh/web-330",
-		"projectTech": ["HTML", "CSS", "JavaScript"]
+		"projectDescription": "An application with sign-in functionality using Angular with TypeScript. Use '1009' as the Student ID.",
+		"projectImg": "public/images/GPACalculator.PNG",
+		"projectView": "https://ace-d-baugh.github.io/gpa-calculator-app/",
+		"projectCode": "https://github.com/ace-d-baugh/gpa-calculator-app",
+		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
 	},
 	{
 		"projectTitle": "In-N-Out Books",
