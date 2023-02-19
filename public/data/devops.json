@@ -36,20 +36,20 @@
       "presentLink":"public/videos/WEB430-w6.mp4"
    },
    {
+      "presentTitle":"Technology v. Business Driven Decisions ",
+      "presentDescription":"This presentation discusses the importance of technology v. business driven decisions.",
+      "presentImg":"public/images/WEB430-w7.PNG",
+      "presentLink":"public/videos/WEB430-w7.mp4"
+   },
+   {
       "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
+      "presentDescription":"This presentation",
       "presentImg":"public/images/coding.jpg",
       "presentLink":"#"
    },
    {
       "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
-   },
-   {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This is the presentation",
+      "presentDescription":"This presentation",
       "presentImg":"public/images/coding.jpg",
       "presentLink":"#"
    }
