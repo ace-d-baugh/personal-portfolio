@@ -57,11 +57,11 @@
 	},
 	{
 		"projectTitle": "In-N-Out Books",
-		"projectDescription": "Learn Angular with TypeScript by building real-world applications. This course covers frameworks and how to build client-rich applications using Angular with TypeScript.",
-		"projectImg": "public/images/coding.jpg",
-		"projectView": "https://ace-d-baugh.github.io/web-330/",
-		"projectCode": "https://github.com/ace-d-baugh/web-330",
-		"projectTech": ["HTML", "CSS", "JavaScript"]
+		"projectDescription": "This project uses Angular to connect a book API to a book list. Also you may make a wishlist and add books to it.",
+		"projectImg": "public/images/in-n-out-books.PNG",
+		"projectView": "https://ace-d-baugh.github.io/in-n-out-books/in-n-out-books/book-list",
+		"projectCode": "https://github.com/ace-d-baugh/in-n-out-books",
+		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
 	},
 	{
 		"projectTitle": "NodeBucket",
