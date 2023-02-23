@@ -1,56 +1,56 @@
 [
-   {
-      "presentTitle":"The Technology Value Stream",
-      "presentDescription":"This presentation discusses the value stream and how it can be used to improve DevOps.",
-      "presentImg":"public/images/WEB430-w1.PNG",
-      "presentLink":"public/videos/WEB430-w1.mp4"
-   },
-   {
-      "presentTitle":"The Two-Pizza Team Rule",
-      "presentDescription":"This presentation discusses the two-pizza team rule and how it can be used to improve DevOps.",
-      "presentImg":"public/images/WEB430-w2.PNG",
-      "presentLink":"public/videos/WEB430-w2.mp4"
-   },
-   {
-      "presentTitle":"DevOps Automated Testing",
-      "presentDescription":"This presentation discusses the differences between unit, acceptance, and integration testing.",
-      "presentImg":"public/images/WEB430-w3.PNG",
-      "presentLink":"public/videos/WEB430-w3.mp4"
-   },
-   {
-      "presentTitle":"Continuous Integration",
-      "presentDescription":"This presentation discusses the importance of Continuous Integration.",
-      "presentImg":"public/images/WEB430-w4.PNG",
-      "presentLink":"public/videos/WEB430-w4.mp4"
-   },
-   {
-      "presentTitle":"Pager Rotation Duties",
-      "presentDescription":"This presentation discusses the importance of pager rotation duties.",
-      "presentImg":"public/images/WEB430-w5.PNG",
-      "presentLink":"public/videos/WEB430-w5.mp4"
-   },
-   {
-      "presentTitle":"The Dangers of Change Approval Processes",
-      "presentDescription":"This presentation discuss the importance of the change approval processes.",
-      "presentImg":"public/images/WEB430-w6.PNG",
-      "presentLink":"public/videos/WEB430-w6.mp4"
-   },
-   {
-      "presentTitle":"Technology v. Business Driven Decisions ",
-      "presentDescription":"This presentation discusses the importance of technology v. business driven decisions.",
-      "presentImg":"public/images/WEB430-w7.PNG",
-      "presentLink":"public/videos/WEB430-w7.mp4"
-   },
-   {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
-   },
-   {
-      "presentTitle":"The Presentation",
-      "presentDescription":"This presentation",
-      "presentImg":"public/images/coding.jpg",
-      "presentLink":"#"
-   }
+	{
+		"presentTitle": "The Technology Value Stream",
+		"presentDescription": "This presentation discusses the value stream and how it can be used to improve DevOps.",
+		"presentImg": "public/images/WEB430-w1.PNG",
+		"presentLink": "public/videos/WEB430-w1.mp4"
+	},
+	{
+		"presentTitle": "The Two-Pizza Team Rule",
+		"presentDescription": "This presentation discusses the two-pizza team rule and how it can be used to improve DevOps.",
+		"presentImg": "public/images/WEB430-w2.PNG",
+		"presentLink": "public/videos/WEB430-w2.mp4"
+	},
+	{
+		"presentTitle": "DevOps Automated Testing",
+		"presentDescription": "This presentation discusses the differences between unit, acceptance, and integration testing.",
+		"presentImg": "public/images/WEB430-w3.PNG",
+		"presentLink": "public/videos/WEB430-w3.mp4"
+	},
+	{
+		"presentTitle": "Continuous Integration",
+		"presentDescription": "This presentation discusses the importance of Continuous Integration.",
+		"presentImg": "public/images/WEB430-w4.PNG",
+		"presentLink": "public/videos/WEB430-w4.mp4"
+	},
+	{
+		"presentTitle": "Pager Rotation Duties",
+		"presentDescription": "This presentation discusses the importance of pager rotation duties.",
+		"presentImg": "public/images/WEB430-w5.PNG",
+		"presentLink": "public/videos/WEB430-w5.mp4"
+	},
+	{
+		"presentTitle": "The Dangers of Change Approval Processes",
+		"presentDescription": "This presentation discuss the importance of the change approval processes.",
+		"presentImg": "public/images/WEB430-w6.PNG",
+		"presentLink": "public/videos/WEB430-w6.mp4"
+	},
+	{
+		"presentTitle": "Technology v. Business Driven Decisions ",
+		"presentDescription": "This presentation discusses the importance of technology v. business driven decisions.",
+		"presentImg": "public/images/WEB430-w7.PNG",
+		"presentLink": "public/videos/WEB430-w7.mp4"
+	},
+	{
+		"presentTitle": "Shared Code Security",
+		"presentDescription": "This presentation discusses the importance of security when using a shared code format.",
+		"presentImg": "public/images/WEB430-w8.PNG",
+		"presentLink": "public/videos/WEB430-w8.mp4"
+	},
+	{
+		"presentTitle": "The Presentation",
+		"presentDescription": "This presentation",
+		"presentImg": "public/images/coding.jpg",
+		"presentLink": "#"
+	}
 ]
