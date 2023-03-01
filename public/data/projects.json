@@ -69,7 +69,7 @@
 		"projectImg": "public/images/loan-app.PNG",
 		"projectView": "https://ace-d-baugh.github.io/loan-app/",
 		"projectCode": "https://github.com/ace-d-baugh/loan-app",
-		"projectTech": ["HTML", "CSS", "JavaScript", "Angular", "NodeJS"]
+		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
 	},
 	{
 		"projectTitle": "NodeBucket",
