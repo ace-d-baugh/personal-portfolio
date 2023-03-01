@@ -64,6 +64,14 @@
 		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
 	},
 	{
+		"projectTitle": "Loan_APP",
+		"projectDescription": "This project used Angular to create a loan application form. It also uses a custom validator to check for valid form entries.",
+		"projectImg": "public/images/loan-app.PNG",
+		"projectView": "https://ace-d-baugh.github.io/loan-app/",
+		"projectCode": "https://github.com/ace-d-baugh/loan-app",
+		"projectTech": ["HTML", "CSS", "JavaScript", "Angular", "NodeJS"]
+	},
+	{
 		"projectTitle": "NodeBucket",
 		"projectDescription": "This course is an immersive web development bootcamp. It is a full stack experience using the skills previously developed in languages, API, and framework.",
 		"projectImg": "public/images/coding.jpg",
