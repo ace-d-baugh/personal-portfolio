@@ -48,9 +48,9 @@
 		"presentLink": "public/videos/WEB430-w8.mp4"
 	},
 	{
-		"presentTitle": "The Presentation",
-		"presentDescription": "This presentation",
-		"presentImg": "public/images/coding.jpg",
-		"presentLink": "#"
+		"presentTitle": "Change Management",
+		"presentDescription": "This presentation discusses the importance of change management in DevOps.",
+		"presentImg": "public/images/WEB430-w9.PNG",
+		"presentLink": "public/videos/WEB430-w9.mp4"
 	}
 ]
