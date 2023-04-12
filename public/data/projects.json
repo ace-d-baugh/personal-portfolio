@@ -65,7 +65,7 @@
 	},
 	{
 		"projectTitle": "Loan_APP",
-		"projectDescription": "This project used Angular to create a loan application form. It also uses a custom validator to check for valid form entries.",
+		"projectDescription": "This project uses Angular to create a loan application form. It also uses a custom validator to check for valid form entries.",
 		"projectImg": "public/images/loan-app.PNG",
 		"projectView": "https://ace-d-baugh.github.io/loan-app/",
 		"projectCode": "https://github.com/ace-d-baugh/loan-app",
@@ -73,10 +73,10 @@
 	},
 	{
 		"projectTitle": "NodeBucket",
-		"projectDescription": "This course is an immersive web development bootcamp. It is a full stack experience using the skills previously developed in languages, API, and framework.",
-		"projectImg": "public/images/coding.jpg",
-		"projectView": "https://ace-d-baugh.github.io/web-330/",
-		"projectCode": "https://github.com/ace-d-baugh/web-330",
+		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a ToDo List with drag and drop functionality.",
+		"projectImg": "public/images/nodebucket.PNG",
+		"projectView": "https://baugh-nodebucket.onrender.com/",
+		"projectCode": "https://github.com/ace-d-baugh/nodebucket",
 		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
 	},
 	{
