@@ -81,10 +81,10 @@
 	},
 	{
 		"projectTitle": "Bob's Computer Repair",
-		"projectDescription": "This course is an immersive web development bootcamp. It is a full stack experience using the skills previously developed in languages, API, and framework.",
-		"projectImg": "public/images/coding.jpg",
-		"projectView": "https://ace-d-baugh.github.io/web-330/",
-		"projectCode": "https://github.com/ace-d-baugh/web-330",
+		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a full stack Repair Shop using the skills previously developed in languages, API, and framework.",
+		"projectImg": "public/images/bcrs.PNG",
+		"projectView": "https://gryffindor-bcrs.onrender.com/#/",
+		"projectCode": "https://github.com/ace-d-baugh/gryffindor-bcrs",
 		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
 	}
 ]
