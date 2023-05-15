@@ -76,18 +76,23 @@ class Resume extends HTMLElement {
 						<div class="resume-section-header"><i class="fa-solid fa-project-diagram"></i>Projects</div>
 						<div class="resume-project-name">Pets-R-Us</div>
 						<div class="resume-project-description">
-							This mock website allows users to book appointment and see them after entering in their email address. Original design with custom CSS
-							and version controlled on GitHub and run on Heroku
+							This mock website allows users to book appointment and see them after entering in their email address. Original design with custom CSS and version controlled on GitHub and run on Render
 						</div>
 						<div class="resume-project-name">DigitalElegance.com</div>
 						<div class="resume-project-description">
-							My personal website for my fine art photography and showing off my fine code programming. It was converted over from a wordpress site
-							to an original work with GitHub version control.
+							My personal website for my fine art photography and showing off my fine code programming. It was converted over from a wordpress site to an original work with GitHub version control.
 						</div>
 						<div class="resume-project-name">YelpCamp</div>
 						<div class="resume-project-description">
-							A mock full-stack CRUD website that allows users to register, sign in, create camp sites and review them. It utilized many technologies
-							including Node.js React, Express, Firebase, MongoDB Heroku, and Bootstrap.
+							A mock full-stack CRUD website that allows users to register, sign in, create camp sites and review them. It utilized many technologies including Node.js React, Express, Firebase, MongoDB, Render, and Bootstrap.
+						</div>
+						<div class="resume-project-name">NodeBucket</div>
+						<div class="resume-project-description">
+							A To-Do list site with the ability to log in and see to-do items from a database. You may create, edit and delete tasks. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
+						</div>
+						<div class="resume-project-name">Bob's Computer Repair shop</div>
+						<div class="resume-project-description">
+							A full-stack website that allows users to register, sign in, create invoices. Create, view, edit and delete users, security questions and user roles. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
 						</div>
 					</div>
 					<!-- Experience Section -->
@@ -148,8 +153,8 @@ class Resume extends HTMLElement {
 					</div>
 					<!-- Certification & Awards Section -->
 					<div class="certifications">
-						<div class="resume-section-header"><i class="fa-regular fa-file-certificate"></i>Awards & Certifications</div>
-						<div class="award-name">Dean's List</div>
+						<div class="resume-section-header"><i class="fa-regular fa-file-certificate"></i>Certifications & Recognitions</div>
+						<div class="award-name">Dean's List & Summa Cum Laude</div>
 						<div class="award-issuer">Bellevue University</div>
 						<div class="award-name">Dean's List</div>
 						<div class="award-issuer">Wilmington University</div>
