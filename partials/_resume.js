@@ -34,9 +34,7 @@ class Resume extends HTMLElement {
 							<div class="resume-name">Ace D. Baugh</div>
 							<div class="resume-tag">Full-Stack Web Developer</div>
 							<div class="resume-elevator-text">
-								Motivated junior web developer looking for a role as full-stack web developer at Locals. Passionate about building first-class web
-								applications. Developed an e-commerce website for a local subscription based home-made goods retailer while at BelleVue University.
-								Relevant skills include Agile Workflow, Database design, Debugging, and more.
+								Motivated web developer looking for a role as full-stack web developer at Disney. Passionate about building first-class web applications. Developed and maintained a shift exchange solution while finishing a degree at Bellevue University. Relevant skills include Agile Workflow, Database design, Prototyping, Debugging, and more.
 							</div>
 						</div>
 					</div>
