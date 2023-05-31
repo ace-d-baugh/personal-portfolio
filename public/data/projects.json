@@ -1,16 +1,72 @@
 [
 	{
-		"projectTitle": "Web 231",
-		"projectDescription": "Projects and assignments for Web 231. These projects showcase intermediate JavaScript concepts and DOM manipulation using functions and bindings. ",
-		"projectImg": "public/images/web-231.png",
-		"projectView": "https://ace-d-baugh.github.io/web-231/",
-		"projectCode": "https://github.com/ace-d-baugh/web-231",
-		"projectTech": ["HTML", "CSS", "JavaScript"]
+		"projectTitle": "Yelp Camp",
+		"projectDescription": "This project uses the MERN Stack (MongoDB, Express, React, Node) to create a full-stack Campsite Review site allowing users to register and create campsite reviews.",
+		"projectImg": "public/images/yelp-camp.PNG",
+		"projectView": "https://acieffe-yelp-camp.onrender.com/",
+		"projectCode": "https://github.com/acieffe/Udemy-YelpCamp",
+		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "React", "NodeJS"]
 	},
 	{
-		"projectTitle": "Web 330",
-		"projectDescription": "Projects and assignments for Web 330. These projects showcase advanced JavaScript concepts including objects, classes, iterators, generators, and component creation.",
-		"projectImg": "public/images/web-330.png",
+		"projectTitle": "Bob's Computer Repair",
+		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a full-stack Repair Shop using the skills previously developed in languages, API, and framework.",
+		"projectImg": "public/images/bcrs.PNG",
+		"projectView": "https://gryffindor-bcrs.onrender.com/#/",
+		"projectCode": "https://github.com/ace-d-baugh/gryffindor-bcrs",
+		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
+	},
+	{
+		"projectTitle": "NodeBucket",
+		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a ToDo List with drag and drop functionality.",
+		"projectImg": "public/images/nodebucket.PNG",
+		"projectView": "https://baugh-nodebucket.onrender.com/",
+		"projectCode": "https://github.com/ace-d-baugh/nodebucket",
+		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
+	},
+	{
+		"projectTitle": "Loan_APP",
+		"projectDescription": "This project uses Angular to create a loan application form. It also uses a custom validator to check for valid form entries.",
+		"projectImg": "public/images/loan-app.PNG",
+		"projectView": "https://ace-d-baugh.github.io/loan-app/",
+		"projectCode": "https://github.com/ace-d-baugh/loan-app",
+		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
+	},
+	{
+		"projectTitle": "In-N-Out Books",
+		"projectDescription": "This project uses Angular to connect a book API to a book list. Also you may make a wishlist and add books to it.",
+		"projectImg": "public/images/in-n-out-books.PNG",
+		"projectView": "https://ace-d-baugh.github.io/in-n-out-books/",
+		"projectCode": "https://github.com/ace-d-baugh/in-n-out-books",
+		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
+	},
+	{
+		"projectTitle": "GPA Calculator App",
+		"projectDescription": "An application with sign-in functionality using Angular with TypeScript. Use '1009' as the Student ID.",
+		"projectImg": "public/images/GPACalculator.PNG",
+		"projectView": "https://ace-d-baugh.github.io/gpa-calculator-app/",
+		"projectCode": "https://github.com/ace-d-baugh/gpa-calculator-app",
+		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
+	},
+	{
+		"projectTitle": "Composer App",
+		"projectDescription": "An application with a list of composers and a reactive search and routing using Angular with TypeScript.",
+		"projectImg": "public/images/composer.png",
+		"projectView": "https://ace-d-baugh.github.io/enterprise-composer-app/",
+		"projectCode": "https://github.com/ace-d-baugh/enterprise-composer-app",
+		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
+	},
+	{
+		"projectTitle": "Web 420 Capstone",
+		"projectDescription": "This course presents the use and testing of APIs (Application Programming Interfaces) utilizing the Swagger and SoapUI tools. View the  Diagrams and APIs links above for more info.",
+		"projectImg": "public/images/420capstone.PNG",
+		"projectView": "https://baugh-web-420.onrender.com/api-docs/",
+		"projectCode": "https://github.com/ace-d-baugh/web-420",
+		"projectTech": ["JavaScript"]
+	},
+	{
+		"projectTitle": "Web 330 Capstone",
+		"projectDescription": "This course presents the purpose of APIs (Application Programming Interfaces), their functions, and how to use and manage them in the context of web development.",
+		"projectImg": "public/images/portfolio-capstone.png",
 		"projectView": "https://ace-d-baugh.github.io/web-330/",
 		"projectCode": "https://github.com/ace-d-baugh/web-330",
 		"projectTech": ["HTML", "CSS", "JavaScript"]
@@ -24,75 +80,19 @@
 		"projectTech": ["HTML", "CSS", "JavaScript", "NodeJS", "Express", "MongoDB"]
 	},
 	{
-		"projectTitle": "Web 330 Capstone",
-		"projectDescription": "This course presents the purpose of APIs (Application Programming Interfaces), their functions, and how to use and manage them in the context of web development.",
-		"projectImg": "public/images/portfolio-capstone.png",
+		"projectTitle": "Web 330",
+		"projectDescription": "Projects and assignments for Web 330. These projects showcase advanced JavaScript concepts including objects, classes, iterators, generators, and component creation.",
+		"projectImg": "public/images/web-330.png",
 		"projectView": "https://ace-d-baugh.github.io/web-330/",
 		"projectCode": "https://github.com/ace-d-baugh/web-330",
 		"projectTech": ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		"projectTitle": "Web 420 Capstone",
-		"projectDescription": "This course presents the use and testing of APIs (Application Programming Interfaces) utilizing the Swagger and SoapUI tools. View the  Diagrams and APIs links above for more info.",
-		"projectImg": "public/images/420capstone.PNG",
-		"projectView": "https://baugh-web-420.onrender.com/api-docs/",
-		"projectCode": "https://github.com/ace-d-baugh/web-420",
-		"projectTech": ["JavaScript"]
-	},
-	{
-		"projectTitle": "Composer App",
-		"projectDescription": "An application with a list of composers and a reactive search and routing using Angular with TypeScript.",
-		"projectImg": "public/images/composer.png",
-		"projectView": "https://ace-d-baugh.github.io/enterprise-composer-app/",
-		"projectCode": "https://github.com/ace-d-baugh/enterprise-composer-app",
-		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
-	},
-	{
-		"projectTitle": "GPA Calculator App",
-		"projectDescription": "An application with sign-in functionality using Angular with TypeScript. Use '1009' as the Student ID.",
-		"projectImg": "public/images/GPACalculator.PNG",
-		"projectView": "https://ace-d-baugh.github.io/gpa-calculator-app/",
-		"projectCode": "https://github.com/ace-d-baugh/gpa-calculator-app",
-		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
-	},
-	{
-		"projectTitle": "In-N-Out Books",
-		"projectDescription": "This project uses Angular to connect a book API to a book list. Also you may make a wishlist and add books to it.",
-		"projectImg": "public/images/in-n-out-books.PNG",
-		"projectView": "https://ace-d-baugh.github.io/in-n-out-books/",
-		"projectCode": "https://github.com/ace-d-baugh/in-n-out-books",
-		"projectTech": ["HTML", "CSS", "JavaScript, Angular"]
-	},
-	{
-		"projectTitle": "Loan_APP",
-		"projectDescription": "This project uses Angular to create a loan application form. It also uses a custom validator to check for valid form entries.",
-		"projectImg": "public/images/loan-app.PNG",
-		"projectView": "https://ace-d-baugh.github.io/loan-app/",
-		"projectCode": "https://github.com/ace-d-baugh/loan-app",
-		"projectTech": ["HTML", "CSS", "JavaScript", "Angular"]
-	},
-	{
-		"projectTitle": "NodeBucket",
-		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a ToDo List with drag and drop functionality.",
-		"projectImg": "public/images/nodebucket.PNG",
-		"projectView": "https://baugh-nodebucket.onrender.com/",
-		"projectCode": "https://github.com/ace-d-baugh/nodebucket",
-		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
-	},
-	{
-		"projectTitle": "Bob's Computer Repair",
-		"projectDescription": "This project uses the MEAN Stack (MongoDB, Express, Angular, Node) to create a full-stack Repair Shop using the skills previously developed in languages, API, and framework.",
-		"projectImg": "public/images/bcrs.PNG",
-		"projectView": "https://gryffindor-bcrs.onrender.com/#/",
-		"projectCode": "https://github.com/ace-d-baugh/gryffindor-bcrs",
-		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "Angular", "NodeJS"]
-	},
-	{
-		"projectTitle": "Yelp Camp",
-		"projectDescription": "This project uses the MERN Stack (MongoDB, Express, React, Node) to create a full-stack Campsite Review site allowing users to register and create campsite reviews.",
-		"projectImg": "public/images/yelp-camp.PNG",
-		"projectView": "https://acieffe-yelp-camp.onrender.com/",
-		"projectCode": "https://github.com/acieffe/Udemy-YelpCamp",
-		"projectTech": ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "React", "NodeJS"]
+		"projectTitle": "Web 231",
+		"projectDescription": "Projects and assignments for Web 231. These projects showcase intermediate JavaScript concepts and DOM manipulation using functions and bindings. ",
+		"projectImg": "public/images/web-231.png",
+		"projectView": "https://ace-d-baugh.github.io/web-231/",
+		"projectCode": "https://github.com/ace-d-baugh/web-231",
+		"projectTech": ["HTML", "CSS", "JavaScript"]
 	}
 ]
