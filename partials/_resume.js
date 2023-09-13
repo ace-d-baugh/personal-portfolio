@@ -72,26 +72,26 @@ class Resume extends HTMLElement {
 					<!-- Projects Section -->
 					<div class="resume-projects">
 						<div class="resume-section-header"><i class="fa-solid fa-project-diagram"></i>Projects</div>
-						<div class="resume-project-name">Pets-R-Us</div>
+     						<div class="resume-project-name">Bob's Computer Repair shop</div>
 						<div class="resume-project-description">
-							This mock website allows users to book appointment and see them after entering in their email address. Original design with custom CSS and version controlled on GitHub and run on Render
+							A full-stack website that allows users to register, sign in, create invoices. Create, view, edit and delete users, security questions and user roles. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
 						</div>
-						<div class="resume-project-name">DigitalElegance.com</div>
+      						<div class="resume-project-name">NodeBucket</div>
 						<div class="resume-project-description">
-							My personal website for my fine art photography and showing off my fine code programming. It was converted over from a wordpress site to an original work with GitHub version control.
+							A To-Do list site with the ability to log in and see to-do items from a database. You may create, edit and delete tasks. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
 						</div>
 						<div class="resume-project-name">YelpCamp</div>
 						<div class="resume-project-description">
 							A mock full-stack CRUD website that allows users to register, sign in, create camp sites and review them. It utilized many technologies including Node.js React, Express, Firebase, MongoDB, Render, and Bootstrap.
 						</div>
-						<div class="resume-project-name">NodeBucket</div>
+						<div class="resume-project-name">DigitalElegance.com</div>
 						<div class="resume-project-description">
-							A To-Do list site with the ability to log in and see to-do items from a database. You may create, edit and delete tasks. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
-						</div>
-						<div class="resume-project-name">Bob's Computer Repair shop</div>
+							My personal website for my fine art photography and showing off my fine code programming. It was converted over from a wordpress site to an original work with GitHub version control.
+						</div>      						
+      						<div class="resume-project-name">Pets-R-Us</div>
 						<div class="resume-project-description">
-							A full-stack website that allows users to register, sign in, create invoices. Create, view, edit and delete users, security questions and user roles. It utilized many technologies including Node.js, Angular, Express, MongoDB, and deployed on Render.
-						</div>
+							This mock website allows users to book appointment and see them after entering in their email address. Original design with custom CSS and version controlled on GitHub and run on Render
+						</div>						
 					</div>
 					<!-- Experience Section -->
 					<div class="work-experience">
